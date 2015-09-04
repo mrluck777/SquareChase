@@ -18,6 +18,15 @@ namespace SquareChase
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        //Game Specific
+        Random rand = new Random();
+        Texture2D squareTexture;
+        Rectangle currentSquare;
+        int playerScore = 0;
+        float timeRemaining = 0.0f;
+        const float TIME_PER_SQUARE = 0.5f;
+        Color[]color = new Color[3] {Color.PowderBlue, Color.Plum, Color.Peru};
+        //red grue blean.  Crosbie said so.
 
         public Game1()
         {
@@ -34,7 +43,8 @@ namespace SquareChase
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            this.IsMouseVisible = true;
+            this.
             base.Initialize();
         }
 
@@ -81,7 +91,7 @@ namespace SquareChase
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.DarkGoldenrod);
+            GraphicsDevice.Clear(Color.Transparent);
 
             // TODO: Add your drawing code here
 
