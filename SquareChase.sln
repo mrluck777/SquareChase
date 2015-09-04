@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareChase", "SquareChase\SquareChase\SquareChase.csproj", "{70BDD7A6-3E33-407F-B133-D5EF7A93A680}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "SquareChaseContent", "SquareChase\SquareChaseContent\SquareChaseContent.contentproj", "{95D48A7D-1FFE-49BF-9E87-377E919FA371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70BDD7A6-3E33-407F-B133-D5EF7A93A680}.Debug|x86.ActiveCfg = Debug|x86
+		{70BDD7A6-3E33-407F-B133-D5EF7A93A680}.Debug|x86.Build.0 = Debug|x86
+		{70BDD7A6-3E33-407F-B133-D5EF7A93A680}.Release|x86.ActiveCfg = Release|x86
+		{70BDD7A6-3E33-407F-B133-D5EF7A93A680}.Release|x86.Build.0 = Release|x86
+		{95D48A7D-1FFE-49BF-9E87-377E919FA371}.Debug|x86.ActiveCfg = Debug|x86
+		{95D48A7D-1FFE-49BF-9E87-377E919FA371}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
